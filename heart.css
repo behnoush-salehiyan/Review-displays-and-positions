@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  height: 100vh;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+}
+.box {
+  background-color: rgb(205, 31, 0);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+.display {
+  display: none;
+}
+.hidden {
+  visibility: hidden;
+}

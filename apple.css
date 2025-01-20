@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  border: 2px rgba(128, 128, 128, 0.43) solid;
+  border-radius: 10px;
+  width: 360px;
+  display: inline-block;
+  padding: 20px;
+  background-color: rgb(237, 237, 237);
+}
+
+img {
+  width: 300px;
+  height: 238px;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+.box {
+  background-color: orange;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+}
+.price {
+  color: orange;
+}

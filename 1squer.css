@@ -1,0 +1,28 @@
+.parent {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  position: relative;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+}
+.a {
+  left: 1rem;
+  top: 1rem;
+}
+.b {
+  left: 1rem;
+  bottom: 1rem;
+}
+.c {
+  bottom: 1rem;
+  right: 1rem;
+}
+.d {
+  top: 1rem;
+  right: 1rem;
+}

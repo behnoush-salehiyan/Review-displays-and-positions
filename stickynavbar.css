@@ -1,0 +1,15 @@
+header {
+  right: 0;
+  left: 0;
+  top: 0;
+  position: sticky;
+}
+
+nav {
+  background-color: rgb(58, 176, 255);
+  height: 50px;
+}
+main {
+  background-color: gray;
+  height: 100vh;
+}

@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* border: 1px solid black; */
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: auto;
+  top: 30vh;
+}
+.center {
+  background-color: rgb(255, 247, 0);
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 105px;
+  left: 105px;
+  border-radius: 50%;
+  z-index: 100;
+}
+.petal {
+  width: 105px;
+  height: 105px;
+  background-color: red;
+  position: absolute;
+}
+.a {
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  top: 1rem;
+  left: 1rem;
+}
+.b {
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  bottom: 1rem;
+  left: 1rem;
+}
+.c {
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  bottom: 1rem;
+  right: 1rem;
+}
+.d {
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  top: 1rem;
+  right: 1rem;
+}
+
+.stem {
+  background-color: green;
+  width: 12px;
+  height: 350px;
+  position: absolute;
+  top: 140px;
+  right: 118px;
+}
+.leaf {
+  width: 105px;
+  height: 105px;
+  background-color: green;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  bottom: 1rem;
+  right: 1rem;
+  position: absolute;
+  top: 300px;
+  left: 1rem;
+}
